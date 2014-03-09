@@ -1,0 +1,76 @@
+@media print
+{    
+    .rowBar, .rowBar *
+    {
+        display: none !important;
+    }
+}
+
+.rowBar{
+	height: 50px;
+	line-height: 50px;
+	font-size: 2em;
+}
+
+.rowHeader{
+	border-top: 10px solid;
+	border-color: #1750ff;
+}
+
+.logo{
+	width: 25%;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.bodyAfiche{
+	text-align: center;
+}
+
+.title{
+	height: 80px;
+	color: #fff;
+	background: #4ad8fe;
+	-webkit-print-color-adjust: exact;
+	
+	-webkit-box-shadow: 7px 7px 5px rgba(23, 80, 255, 1);
+	-moz-box-shadow:    7px 7px 5px rgba(23, 80, 255, 1);
+	box-shadow:         7px 7px 5px rgba(23, 80, 255, 1);
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+	line-height: 90px;
+}
+
+.title h1{
+	font-size: 4em;
+}
+
+.photo{
+	margin-top: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	border: 5px solid;
+	border-color: #1750ff;
+}
+
+.description{
+	font-size: 1.6em;
+}
+
+.rowFooter{
+	color: #fff;
+	text-align: center;
+	border-top: 10px solid;
+	border-color: #1750ff;
+	background-color: #4ad8fe;
+}
+
+h3{
+	margin-top: 0px;
+}
